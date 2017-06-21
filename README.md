@@ -8,7 +8,7 @@
 - Bootstrap CSS
 
 ### Usage
-- Option 1: Open git page here: https://niketarachhadia.github.io/userdashboard/ 
+- Option 1: Open git page here: https://radiant-cove-17776.herokuapp.com/#/ 
 - Option 2: 
 	- Clone Repo
 	- npm install
