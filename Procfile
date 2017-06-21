@@ -1,1 +1,0 @@
-web:  npm run build:js && node node_modules/http-server/bin/http-server
