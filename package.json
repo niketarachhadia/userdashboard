@@ -9,7 +9,7 @@
     "watch:js": "npm run build:js && webpack --watch",
     "clean:js": "rm -f js/build/*",
     "postinstall": "rm -f js/build/* && webpack",
-    "start": "node_modules/http-server/bin/http-server"
+    "start": "node index.js"
   },
   "author": "Niketa Rachhadia",
   "license": "ISC",
@@ -33,6 +33,7 @@
     "http-server": "^0.10.0",
     "isomorphic-fetch": "^2.2.1",
     "jquery": "^3.2.1",
+    "node-static": "^0.7.9",
     "react": "^15.3.2",
     "react-bootstrap": "^0.31.0",
     "react-dom": "^15.3.2",
