@@ -1,0 +1,7 @@
+language: node_js
+node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: d69a529f-1126-4b4f-b975-a4ec9e87cd8b
+  app: ancient-springs-96484
