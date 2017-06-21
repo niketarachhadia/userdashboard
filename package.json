@@ -7,7 +7,9 @@
     "test": "jest",
     "build:js": "npm run clean:js && node node_modules/webpack/bin/webpack.js",
     "watch:js": "npm run build:js && webpack --watch",
-    "clean:js": "rm -f js/build/*"
+    "clean:js": "rm -f js/build/*",
+    "postinstall": "clean:js && webpack",
+    "start": "node_modules/http-server/bin/http-server"
   },
   "author": "Niketa Rachhadia",
   "license": "ISC",
