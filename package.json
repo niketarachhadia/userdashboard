@@ -5,7 +5,7 @@
   "main": "js/index.js",
   "scripts": {
     "test": "jest",
-    "build:js": "npm run clean:js && webpack",
+    "build:js": "npm run clean:js && node node_modules/webpack/bin/webpack.js",
     "watch:js": "npm run build:js && webpack --watch",
     "clean:js": "rm -f js/build/*"
   },
